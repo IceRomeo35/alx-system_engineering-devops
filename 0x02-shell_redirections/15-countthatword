@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -C 'bin' /etc/passwd
+group -i "bin" /etc/passwd | wc -l
